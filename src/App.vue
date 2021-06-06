@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Background /> 
+    <h1>Запомни число</h1>
+    <SettingGame />
+    <GameInterface />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SettingGame from './components/SettingGame.vue'
+import GameInterface from './components/GameInterface.vue'
+import Background from './components/Background.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SettingGame,
+    GameInterface,
+    Background,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Jura', sans-serif;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>

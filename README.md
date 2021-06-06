@@ -1,24 +1,9 @@
-# remember-number
+# Мини-тренажер "Запомни число"
 
-## Project setup
-```
-npm install
-```
+Создан на 3х компонентах: 
+  1. **Background** - фон игры,
+  1. **GameInterface** - интерфейс игры( кнопка - Старт, показываемое число, поле для ввода ответа, кнопка - Ответить, сообщение о результате),
+  1. **SettingGame** - игровые настройки.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Логика игры вынесена в отдельный модуль *game.js*
+ 
